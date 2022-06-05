@@ -20,7 +20,7 @@ void sort(int arr[],int size)
 
 int main()
 {
-	int arr[]={124,486,135,22,23,12,34,45,56,67};
+	int arr[]={124,1211,486,135,22,23,12,34,45,56,67};
 	int size = sizeof(arr)/sizeof(arr[0]);
 	sort(arr,size);
     for(auto i:arr)
